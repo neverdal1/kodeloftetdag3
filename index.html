@@ -1,13 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
+  <header>
+    
+
+  </header>
+  
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <p>dag 4 på kodeloftet</p>
+
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enkel HTML med CSS og JavaScript</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>hellow world</h1>
-  
+  <img src="clarisse-meyer-bVH0d1qHsio-unsplash.jpg" alt="sand">
+<div class="container">
+    <h1>welcome to codeloftt</h1>
+    <button id="myButton">push here</button>
+    <div id="output"></div>
+</div>
+
+<script>
+// JavaScript-kode
+document.getElementById('myButton').addEventListener('click', function() {
+    var outputDiv = document.getElementById('output');
+    outputDiv.innerHTML = 'Knappen ble trykket!';
+});
+</script>
+
 </body>
 </html>
